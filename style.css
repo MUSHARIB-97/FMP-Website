@@ -1,0 +1,216 @@
+
+body{
+    background-image: url("..//FMP/imgs/images\ \(2\).jpg");
+    background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.heading{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.iframe{
+    display: flexbox;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.containerbtn{
+    display: flex;
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-between;
+    padding-left: 200px;
+}
+
+.ctgBtn{
+    border: none;
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    color: whitesmoke;
+}
+.col-12{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+}
+.tbl{
+    /* border-right: 0.2px solid white; */
+    border-bottom: 2px solid white;
+}
+h1{
+    text-align: center;}
+
+.containerR{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.featured:hover{
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 10px 10px 5px 4px #888888;
+    border-radius: 20px;
+}
+
+                        /* button */
+.butn{
+    cursor: pointer;
+    margin-left: 80%;
+    width: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.join_EA{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-image: url('../FMP/imgs/ea-hero-medium-ea-play-7x2-xl.jpg.adapt.crop5x2.1455w.jpg');
+    color: white;
+}
+.butns{
+    cursor: pointer;
+    display: flex;
+    margin-left: 100px;
+    background-color: rgb(92, 92, 228);
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.butnsLatest{
+    cursor: pointer;
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: auto;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+
+
+.offer{
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.learn_more{
+    display: flex;
+    margin-top:50px ;
+    width: 100%;
+    height: 90px;
+    color: white;
+    background-color: teal;
+}
+
+.L_more{
+    text-align: initial;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.l-more{
+    position: absolute;
+    right: 50px;
+    margin-top: 40px;
+    color: white;
+    border: none;
+    background-color: teal;
+}
+
+.ctgBtn:hover{
+    cursor: pointer;
+    background-image: url(../FMP/imgs/download\ \(13\).jpg);
+    margin-top: 10px;
+}
+.txt{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.social{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    color: white;
+    /* background-color: yellowgreen; */
+}
+
+.f_games:hover{
+    cursor: pointer;
+    margin: 20px;
+    box-shadow: 10px 10px 5px 4px #888888;
+    border-radius: 20px;    
+}
+
+.slct{
+    border: none;
+    background-color: black;
+    color: white;
+    
+}
+.crsr{
+    cursor: pointer;
+}
+.socilaMedia{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 200px;
+}
+.para{
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+a:link{
+    color: white;
+}
+a:active{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+    padding-left: 100px;
+    justify-content: space-around;
+    padding-top:50px ;
+}
+.footerPara{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    text-indent: 50px;
+    padding-top: 40px;
+    font-size: 20px;
+}

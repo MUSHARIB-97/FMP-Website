@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+    
+<!-- navigation bar -->
+<!-- 
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="../FMP/imgs/download.jpg" alt="" width="100px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent m-3">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> -->
+
+
+
+  <!-- second navbar -->
+  <nav class="navbar navbar-dark bg-black sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand"><img src="../FMP/imgs/download (13).jpg" alt="" width="50px" height="40px"></a>
+      <div class="moreAbout">
+          <div class="optns">
+            <select id="games" class="slct">
+            <option value="games"> Games </option>
+            <a href="https://www.ea.com/games">  <option value="browseGame">Browse Games </option> </a>
+            <p>browse game</p>
+            <option value="AllGames"> All Games</option> <br>
+            <option value="ComingSoon"> Coming Soon</option> <br>
+            <option value="freeToPlay"> Free-To-Play</option> <br>
+            <option value="Subscribe">Subscribe</option>
+          </select>
+    <select name="moreExperience" id="moreExperience" class="slct">
+      <option value="moreexperience">More Experience</option>
+      <option value="Subscribe">Subscribe</option>
+      <option value="Origin">Origin</option>
+      <option value="competitive">Competitive Gaming</option>
+      <option value="EAPlayLive">EA Play Live</option>
+    </select>
+
+    <select name="about" id="about" class="slct">
+      <option value="about">About</option>
+      <option value="Company">Company</option>
+      <option value="EAStudios">EA Studios</option>
+      <option value="EAPartners">EA Partners</option>
+      <option value="News">News</option>
+      <option value="InsideEA">Inside EA</option>
+    </select>
+
+    <select name="commitments" id="commitments" class="slct">
+      <option value="commitments">Commitments</option>
+      <option value="inclusiveDiversity">Inclusive & Diversity</option>
+      <option value="CommunityOutreach">Community Outreach</option>
+      <option value="PeopleCulture">People & Culture</option>
+      <option value="environment">Environment</option>
+    </select>
+
+    <select name="resources" id="resources" class="slct">
+      <option value="resources">Resources</option>
+      <option value="help">Help</option>
+      <option value="Forums">Forums</option>
+      <option value="ParentalControl">Parental Control</option>
+      <option value="Accessibility">Accessibility</option>
+      <option value="Careers">Careers</option>
+      <option value="press">Press</option>
+      <option value="investors">Investors</option>
+    </select>
+
+
+    <!-- bootrap wala dropdown -->
+</div>
+</div>
+      </div>
+<!--       
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search for a games" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </nav>
+<!-- navbar-end -->
+
+<!-- categories buttons -->
+<div class="containerbtn">
+<div class="catBtn">
+
+    
+    <a href="https://www.gamesgames.com/games/action"><button class="ctgBtn"> <img src="../FMP/imgs/images (3).jpg" height="48" alt=""> Action</button></a>
+    <a href="https://blog.dota2.com/?l=english"><button class="ctgBtn"> <img src="../FMP/imgs/download (3).jpg" height="48" alt=""> Funny</button></a>
+    <a href="https://www.gametop.com/category/horror.html"><button class="ctgBtn"> <img src="../FMP/imgs/download (2).jpg" height="48" alt=""> Thirller</button></a>
+    <a href="https://www.ea.com/games/need-for-speed/need-for-speed-payback"><button class="ctgBtn"> <img src="../FMP/imgs/download (1).jpg" alt="" height="48"> Racing</button></a>
+    <a href="https://www.silvergames.com/en/granny-horror"><button class="ctgBtn"> <img src="../FMP/imgs/zombie-games.webp" height="48" alt="zombie"> Horror</button></a>
+    <a href="https://www.gsn.com/casino/"><button class="ctgBtn"> <img src="../FMP/imgs/download (4).jpg" alt="" height="48"> Card</button></a>
+</div>
+    
+</div>
+<!-- 
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown button
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+      <a class="dropdown-item" href="#">Action</a>
+      <a class="dropdown-item" href="#">Another action</a>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </div>
+  </div> -->
+<!-- categories buttons end -->
+
+<div class="container text-light">
+    <div class="heading">
+        <h1>NEW UPCOMING GAMES POSTER</h1>
+    </div>
+</div>
+
+                            <!-- SLIDER -->
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../FMP/imgs/download.jpg" class="d-block w-100" height="650" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="../FMP/imgs/images.jpg" class="d-block w-100" alt="..." height="650">
+              </div>
+              <div class="carousel-item">
+                <img src="../FMP/imgs/images (1).jpg" class="d-block w-100" alt="..." height="650">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- slider end -->
+
+                                          <!-- trailers -->
+<!-- <div class="container text-light col-md-6">
+    <div class="heading">
+<h1>TRAILER OF TH MONTH</h1>
+</div>
+
+<div class="container1 shadow rounded-pill"> 
+    <div class="heading">
+    <h1>Mortal Kombat (2021) <br> Official Red Band Trailer</h1>
+    </div>
+    <div class="iframe">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/NYH2sLid0Zc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="container2 shadow rounded-pill">
+    <div class="heading">
+        <h1> The Falcon and the Winter Soldier</h1>
+    </div>
+    <div class="iframe">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IWBsDaFWyTE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="container3 shadow rounded-pill">
+    <div class="heading">
+        <h3>Marvel Studios' Black Widow</h3>
+    </div>
+    <div class="iframe">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ybji16u608U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="container4 shadow rounded-pill">
+    <div class="heading">
+        <h3>Fast & Furious 9</h3>
+    </div>
+    <div class="iframe">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FUK2kdPsBws" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+</div> -->
+
+            <!-- featured-games -->
+<div class="container text-light ">
+  <div class="heading">
+    <h1>FEATURED GAMES</h1>
+  </div>
+   <div class="row">
+     <div class="col-12">
+       <a href="https://www.ea.com/games/fifa/fifa-21"><img class="f_games" src="../FMP/imgs/download (5).jpg" width="350" height="400" alt=""></a>
+       <a href="https://www.ea.com/games/starwars/squadrons?setLocale=en-us?setLocale=en-us"></a><img class="f_games" src="../FMP/imgs/download (6).jpg" alt="" width="350"></a>
+       <a href="https://www.ea.com/games/madden-nfl/madden-nfl-21"></a><img class="f_games" src="../FMP/imgs/download (7).jpg"  alt="" width="350"></a>
+      </div>
+  </div>
+      <!-- SECOND ROWs -->
+  <div class="row">
+    <div  class="col-12">
+      <a href="https://www.ea.com/games/plants-vs-zombies/plants-vs-zombies-battle-for-neighborville"></a><img class="f_games" src="../FMP/imgs/download (8).jpg" width="350" alt=""></a>
+      <a href="https://www.ea.com/games/apex-legends"></a><img class="f_games" src="../FMP/imgs/download (9).jpg" alt="" width="350"></a>
+      <a href="https://www.ea.com/games/the-sims/the-sims-4"></a><img class="f_games" src="../FMP/imgs/download (10).jpg"  alt="" width="350" ></a>
+      
+     </div>
+     <div >
+       <a href="https://www.ea.com/games"><button class="butnsLatest">
+         Latest Games
+       </button></a>
+     </div>
+ </div>
+</div>
+<br><br>
+
+<div class="container text-light">
+    <h1 >Latest Updates</h1>
+    <table width="600" height="50" align="center">
+      <tr>
+        
+        <th class="tbl">EA news</th>
+        <th class="tbl">EA play</th>
+        <th class="tbl">Madden NFL</th>
+        <th class="tbl">Apex Legend</th>
+        <th class="tbl">FiFa</th>
+        <th class="tbl">Star Wars</th>
+        <th class="tbl" class="tbls">The Sims 4</th>
+      </tr>
+    </table>
+
+</div>
+<br><br>
+
+
+<!-- <div class="col-md-4">
+  <div class="containerR">
+      <div class="row">
+          <div class="col-md-5 p-3">
+              <div class="productcard rounded border border-warning">
+                  <img src="../FMP/imgs/codemasters-grid-image.jpg.adapt.crop16x9.431p.jpg" width="100%" height="">
+                  <div class="cardDetails">
+                      <h4>Welcoming Codemasters to the Family</h4>
+                      <p>We love racing games. As interest in playing them grows across the world it’s clear that you love them too. Over the years our existing franchises such as Need for Speed, Real Racing and Burnout have become some of the most</p>
+                   
+                      <button class="btn btn-block bg-dark text-warning font-weight-bold">Add to cart</button>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-5 p-3">
+            <div class="productcard rounded border border-warning">
+                <img src="../FMP/imgs/koc-keyart-image-asset-16x9.jpg.adapt.crop16x9.431p.jpg" width="100%" height="167">
+                <div class="cardDetails">
+                    <h3>Welcome to Knockout City</h3>
+                    <p>
+            Team up and duke it out with rival Crews in Knockout City™, a new cross-platform multiplayer game that takes dodgebrawling to the streets!
+                    
+          <br><br> <br></p>
+                   
+                    <button class="btn btn-block bg-dark text-warning font-weight-bold">Add to cart</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-5 p-3">
+          <div class="productcard rounded border border-warning">
+              <img src="../FMP/imgs/koc-keyart-image-asset-16x9.jpg.adapt.crop16x9.431p.jpg" width="100%" height="167">
+              <div class="cardDetails">
+                  <h3>Welcome to Knockout City</h3>
+                  <p>
+          Team up and duke it out with rival Crews in Knockout City™, a new cross-platform multiplayer game that takes dodgebrawling to the streets!
+                  
+        <br><br> <br></p>
+                 
+                  <button class="btn btn-block bg-dark text-warning font-weight-bold">Add to cart</button>
+              </div>
+          </div>
+      </div>
+
+
+
+
+      </div>
+  </div>
+</div> -->
+
+
+
+
+<div class="containerR">
+  <div class="row">
+    <div class="col-md-4">
+    <div class="featured">
+     <a href="https://www.ea.com/news/welcome-codemasters"> <img src="../FMP/imgs/codemasters-grid-image.jpg.adapt.crop16x9.431p.jpg" width="100%" alt="">
+     </a>
+    </div>
+    <div class="details">
+      <h3>Welcoming Codemasters to the Famitly</h3>
+      <p>We love racing games. As interest in playing them grows across the world it’s clear that you love them too. Over the years our existing franchises such as Need for Speed, Real Racing and Burnout have become some of the most</p>
+    </div>
+  </div>
+
+
+  <div class="col-md-4">
+    <div class="featured">
+      <a href="https://www.ea.com/games/knockout-city/news/welcome-to-knockout-city"><img src="../FMP/imgs/koc-keyart-image-asset-16x9.jpg.adapt.crop16x9.431p.jpg" width="100%" alt="">
+      </a>
+      </div>
+    <div class="details">
+      <h3>Welcome to Knockout City</h3>
+      <p>Team up and duke it out with rival Crews in Knockout City™, a new cross-platform multiplayer game that takes dodgebrawling to the streets!</p>
+    </div>
+  </div>
+
+
+
+  <div class="col-md-4">
+    <div class="featured">
+      <a href="https://www.ea.com/games/apex-legends/news/two-years-of-apex-legends"><img src="../FMP/imgs/apex-featured-image-two-year-anniversary.jpg.adapt.crop16x9.431p.jpg" width="100%" alt="">
+      </a>
+      </div>
+    <div class="details">
+      <h3>Looking Back on Two Years of Apex Legends</h3>
+      <p>
+        Two years later, we’re just getting started.</p>
+    </div>
+  </div>
+  </div>
+</div>
+
+      <!-- 2ndRow -->
+
+<div class="containerR rounded-pill">
+  <div class="row">
+    <div class="col-md-4">
+    <div class="featured">
+     <a href="https://www.ea.com/games/apex-legends/news/switch-launch-march-2021"> <img src="../FMP/imgs/apexlegends-switch-3840x2160.jpg.adapt.crop16x9.431p.jpg" width="100%" alt="">
+     </a>
+    </div>
+    <div class="details">
+      <h3>Apex Legends Launches on Nintendo Switch on March 9th, 2021.</h3>
+      <p>Apex Legends is coming to Nintendo Switch on March 9th, 2021.</p>
+    </div>
+  </div>
+
+
+  <div class="col-md-4">
+    <div class="featured">
+      <a href="https://www.ea.com/news/electronic-arts-reports-q3-fy21-financial-results"><img src="../FMP/imgs/ea-header-fy18q1-earnings-xl.png.adapt.crop16x9.431p.png" width="100%" alt="">
+      </a>
+      </div>
+    <div class="details">
+      <h3>Electronic Arts Reports Strong Q3 FY21 Financial Results</h3>
+      <p> Electronic Arts Inc. (NASDAQ: EA) today announced preliminary financial results for its third fiscal quarter ended December 31, 2020.      </p>
+    </div>
+  </div>
+
+
+
+  <div class="col-md-4">
+    <div class="featured">
+     <a href="https://www.ea.com/news/a-bold-move-for-battlefield"> <img src="../FMP/imgs/ea-tile-origin-experience.png.adapt.crop16x9.431p.png" width="100%" alt="">
+     </a>
+    </div>
+    <div class="details">
+      <h3>Electronic Arts Announces Multiplatform EA SPORTS FIFA Global Expansion</h3>
+      <p>Multi-Year UEFA Club Competition License Extension Solidifies EA SPORTS™ FIFA as the Most Authentic Interactive Football Experience.
+
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+
+  <!-- featured ended -->
+
+
+  <div class="col-md-6">
+    <div class="butn">
+      <a href="https://www.ea.com/news"><button>Read More</button></a>
+    </div>
+  </div>
+
+
+                    <!-- button-end -->
+
+
+             
+                    
+                    <div class="join_EA">
+                      
+                        <img src="../FMP/imgs/ea-play-logo-coral-hero-logo-small.svg" alt="">
+                      
+                      <div>
+                        <h2 class="EA_text">Get more game for less</h2>
+                        <h3 class="EA_text">New members save big* on your first month!</h3>
+                      </div>
+                      <div>
+                       <a href="https://www.ea.com/ea-play"> <button class="butns">Join EA Play**</button></a>
+                      </div>
+                    </div>
+
+
+                    <!-- end-join_EA -->
+
+
+
+                    <div class="offer">
+<div>
+                      <h4>*OFFER MAY VARY. SEE RETAILER SITE FOR DETAILS.</h4>
+                    </div>
+                    <div>
+                      <h4>**CONDITIONS AND RESTRICTIONS APPLY. SEE <a href="https://tos.ea.com/legalapp/eaplay/US/en/PC/"> https://tos.ea.com/legalapp/eaplay/US/en/PC/ </a>FOR DETAILS.</h4>
+                    </div>
+                    </div>
+
+
+                    <!-- offer_END -->
+
+
+
+                    <div class="learn_more">
+                      <h1 class="L_more">Parents: Video game control is in your hands.</h1>
+                     <a href="https://www.ea.com/commitments/positive-play/parental-controls"> <button class="l-more">Learn More</button> </a>
+                    </div>
+
+
+                    <!-- LEARN_MORE-ENDED -->
+
+
+                    <!-- <table width="100%" height="50" align="center">
+                      <tr> -->
+                        <div class="txt text-light">
+                            <div class="social col-md-6 p-3 m-8">
+                         <a href="https://media.contentapi.ea.com/content/dam/eacom/corporate/docs/2020-impact-report.pdf"><p>Impact Report</p></a>
+                         <a href="https://www.ea.com/executives"> <p>Executive</p> </a>
+                          &nbsp &nbsp &nbsp &nbsp &nbsp 
+                          <a href="https://www.ea.com/about/privacy"><p>Privacy & Security</p></a>
+                          <a href="https://www.ea.com/about/political-activities-statement"><p>Political Activities</p></a>
+                          <a href="https://www.ea.com/about/global-human-rights-statement"><p>Global Human Rights Statement</p></a>
+                          <a href="https://www.ea.com/brand-partnerships"><p>Partner With US</p><a href=""></a>
+                        </div>
+                      </div>
+
+                      <div class="socilaMedia text-light">
+                        <div class="para">
+                          <h3>Join The Conversation</h3>
+                        </div>
+                        <div class="imgS">
+                        &nbsp &nbsp &nbsp &nbsp <a href="www.facebook.com"> <img src="../FMP/imgs/iconfinder_SocialMedia_Facebook-Outline_2959749.png" width="100" alt="facebook" height="70"></a>
+                        &nbsp &nbsp &nbsp &nbsp <a href="www.instagram.com"> <img src="../FMP/imgs/iconfinder_social_media-04_5437083.png" width="100" height="100" alt="instaGram"> </a>
+                        &nbsp &nbsp &nbsp &nbsp <a href="www.twitter.com"> <img src="../FMP/imgs/iconfinder_twitter_circle_294709.png" width="90" height="70" alt="Twitter"></a>
+                        &nbsp &nbsp &nbsp &nbsp  <a href="www.youtube.com"> <img src="../FMP/imgs/iconfinder_Social-media_Youtube_4362951.png" alt="Youtube" width="90" height="70"></a>
+                        </div>
+                      </div>
+                              <!-- end-socialMedia  -->
+
+
+                              <div class="footer text-dark">
+                                <div>
+                                 <a href="index.html"><img src="../FMP/imgs/october-ea-ring.png" width="100" height="100" alt=""></a>
+                                </div>
+                                <div class="footerPara">
+                                <a href="https://www.ea.com/games/library"><p>Game Library</p></a> 
+                                <a href="https://www.ea.com/ea-play"><p> Subscribe</p> </a> 
+                                <a href="https://www.origin.com/ind/en-us/"><p>Origin</p></a> 
+                                <a href="https://www.ea.com/about"><p>About</p></a> 
+                                <a href="https://www.ea.com/able"><p>Accessibility</p></a> 
+                                <a href="https://help.ea.com/uk/"><p>Help</p></a>
+                              </div>
+                              </div>
+                        <!-- </tr>
+                        </table> -->
+                      <!-- JAVASCRIPT -->
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
